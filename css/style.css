@@ -1,0 +1,126 @@
+body {
+	font-family: arial;
+	margin: 0;
+	background-color : #A8B3E0;
+}
+
+input[type="button"] {
+	font-size : 12pt;
+}
+
+#mainPage {
+	background-color : #C5CBE6;
+	left : 50%;
+	top : 50%;
+	transform : translate(-50%, -50%);
+	width : 1000px;
+	height : 800px;
+	position : absolute;
+	border : 1px solid black;
+	border-radius :8px;
+}
+
+#tbxUsername, #tbxChannelname {
+	margin : 10px;
+}
+
+#title {
+	left : 50%;
+	top : 30%;
+	transform : translate(-50%, -50%);
+	width : 240px;
+	height : 40px;
+	position : absolute;
+	font-size : 25pt;
+}
+
+#pInfos {
+	z-index: 9999999999999;
+    position: absolute;
+	bottom: 1px;
+    right: 5px;
+}
+
+#buttonLeaveChannel, #divChannel  {
+	display : none;
+}
+
+#divAddress {
+	left : 50%;
+	top : 40%;
+	transform : translate(-50%, -50%);
+	position : absolute;
+}
+
+#divConnect {
+	display : none;
+	left : 50%;
+	top : 40%;
+	transform : translate(-50%, -50%);
+	position : absolute;
+}
+
+#divChannel {
+	  left : 50%;
+	  top : 40%;
+	  transform : translate(-50%, -50%);
+	  width : 450px;
+	  height : 60px;
+	  position : absolute;
+  }
+
+#divChat {
+	display : none;
+	text-align : center;
+	left : 50%;
+	top : 52%;
+	transform : translate(-50%, -50%);
+	width : 600px;
+	height : 460px;
+	position : absolute;
+	border : 1px solid black;
+}
+
+#divActionsUser {
+	text-align : center;
+	display: none;
+	left : 50%;
+	top : 90%;
+	transform : translate(-50%, -50%);
+	width : 560px;
+	height : 80px;
+	position : absolute;
+}
+
+#divNomUser {
+	text-align : center;
+	display: none;
+	left : 50%;
+	top : 93%;
+	transform : translate(-50%, -50%);
+	width : 560px;
+	height : 80px;
+	position : absolute;
+}
+
+.tbxMessage {
+	left : 50%;
+	top : 96%;
+	transform : translate(-50%, -50%);
+	width : 594px;
+	height : 20px;
+	position : absolute;
+}
+
+.tabs {
+	font-family: Consolas, "Lucida Console", monospace;
+	font-size: 12pt;
+	text-align : left;
+	background-color : white;
+	left : 50%;
+	top : 51%;
+	transform : translate(-50%, -50%);
+	width : 595px;
+	height : 380px;
+	position : absolute;
+}
